@@ -18,7 +18,7 @@ You need [VirtualBox](http://virtualbox.org) and [Vagrant](http://vagrantup.com)
 `vagrant box add laravel/homestead`
 
 #### Installing Homestead
-`cd ~ && git clone https://github.com/laravel/homestead.git Homestead`
+`cd ~ && git clone https://github.com/thomasdiluccio/homestead.git Homestead`
 
 `composer install`
 
