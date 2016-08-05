@@ -1,0 +1,30 @@
+{
+    "name": "thomasdiluccio/homestead-extended",
+    "description": "An extended version of Laravel virtual machine for web artisans.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas di Luccio",
+            "email": "thomas@zenhysteria.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Laravel\\Homestead\\": "vendor/laravel/homestead/src/"
+        }
+    },
+    "bin": [
+        "homestead"
+    ],
+    "require": {
+        "laravel/homestead": "^3.0"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "cp vendor/laravel/homestead/Vagrantfile ./ && cp vendor/laravel/homestead/scripts/* ./scripts/"
+        ],
+        "post-update-cmd": [
+            "cp vendor/laravel/homestead/Vagrantfile ./ && cp vendor/laravel/homestead/scripts/* ./scripts/"
+        ]
+    }
+}
