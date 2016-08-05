@@ -5,7 +5,6 @@
 # be run after the Homestead machine is provisioned.
 
 
-
 # Setting Up MongoDB
 # https://github.com/zakhttp/Mongostead7
 sudo curl -sS https://raw.githubusercontent.com/zakhttp/Mongostead7/master/mongoHomestead7.sh | sudo sh
