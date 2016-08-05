@@ -20,7 +20,7 @@ You need [VirtualBox](http://virtualbox.org) and [Vagrant](http://vagrantup.com)
 #### Installing Homestead
 `cd ~ && git clone https://github.com/thomasdiluccio/homestead.git Homestead`
 
-`composer install`
+`cd Homestead && composer install`
 
 
 #### Run initilization script
