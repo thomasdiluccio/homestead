@@ -1,4 +1,4 @@
 /vendor
 /.vagrant
 /scripts/**
-\!scripts/after.sh
+\!/scripts/after.sh
