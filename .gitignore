@@ -1,4 +1,7 @@
 /vendor
 /.vagrant
+Vagrantfile
 /scripts/**
 \!/scripts/after.sh
+!/scripts/post-install.sh
+!/scripts/mongodb-forwarding-ports.rb

@@ -21,10 +21,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "cp vendor/laravel/homestead/Vagrantfile ./ && cp vendor/laravel/homestead/scripts/* ./scripts/"
+            "sh scripts/post-install.sh"
         ],
         "post-update-cmd": [
-            "cp vendor/laravel/homestead/Vagrantfile ./ && cp vendor/laravel/homestead/scripts/* ./scripts/"
+            "sh scripts/post-install.sh"
         ]
     }
 }
