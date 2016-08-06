@@ -4,7 +4,7 @@ You should check the [Official documentation](http://laravel.com/docs/homestead)
 
 ## What's for *Homestead Extended* ?
 
-This project extends `Laravel/Homestead`. So, you can run a `composer update` to update `Laravel/Homestead` to the last published version.
+This project extends [`Laravel/Homestead`](http://github.com/laravel/homestead). So, you can run a `composer update` to update `Laravel/Homestead` to the last published version.
 
 As of `v1.0`, this package adds MongoDB using zakaria benbakkar's [`zakhttp/Mongostead7`](https://github.com/zakhttp/Mongostead7)
 
