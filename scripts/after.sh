@@ -26,8 +26,6 @@ ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
 WantedBy=multi-user.target
 EOL
 
-cat /etc/systemd/system/mongodb.service
-
 sudo systemctl start mongodb
 sudo systemctl status mongodb
 sudo systemctl enable mongodb
