@@ -26,7 +26,7 @@ You need [VirtualBox](http://virtualbox.org) and [Vagrant](http://vagrantup.com)
 #### Run initilization script
 `bash init.sh`
 
-#### Check you config file
+#### Check your config file
 `vi ~/.homestead/Homestead.yaml`
 
 #### Boot up the server
