@@ -12,7 +12,7 @@ As of `v1.0`, this package adds MongoDB using zakaria benbakkar's [`zakhttp/Mong
 
 You need [VirtualBox](http://virtualbox.org) and [Vagrant](http://vagrantup.com).
 
-## Setup (not to myself)
+## Setup
 
 #### Installing The Homestead Vagrant Box
 `vagrant box add laravel/homestead`
