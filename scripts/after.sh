@@ -11,24 +11,3 @@ sudo curl -sS https://raw.githubusercontent.com/zakhttp/Mongostead7/master/mongo
 
 echo "Remove IP restriction for MongoDB"
 sudo sed -i '/127.0.0.1/s/^/#/g' /etc/mongod.conf
-
-echo "Add mongodb.service"
-cat >/etc/systemd/system/mongodb.service <<EOL
-[Unit]
-Description=High-performance, schema-free document-oriented database
-After=network.target
-
-[Service]
-User=mongodb
-ExecStart=/usr/bin/mongod --quiet --config /etc/mongod.conf
-
-[Install]
-WantedBy=multi-user.target
-EOL
-
-sudo systemctl start mongodb
-sudo systemctl status mongodb
-sudo systemctl enable mongodb
-
-#echo "Remove IP restriction for MongoDB"
-sudo sed -i '/127.0.0.1/s/^/#/g' /etc/mongod.conf
